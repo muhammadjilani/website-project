@@ -1,0 +1,150 @@
+body{
+
+}
+/* Start navbar */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.nav-logo{
+  text-align: left;
+}
+.navBar{}
+.nav-heading h1{
+  text-align: right;
+}
+.nav-menu{
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.nav-menu a{
+  padding: 5px 10px;
+  margin: 20px 5px;
+  background-color: transparent;
+}
+.nav-menu a:hover{
+  background-color: transparent;
+  color:#E9EB;
+}
+/* end navbar */
+
+/* profile Start from here */
+.profile{
+  padding: 10px;
+  background:linear-gradient(#00000070,#00000059), url(images/IMG_272.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll ;
+
+  width: 100%;
+  height: 500px;
+  color:white;
+}
+
+.profile-desc{
+  padding: 1% 0%;
+
+  width: 450px;
+  margin-right: 105px;
+}
+
+.profile-desc p{
+  margin-top: 10px;
+  text-align: center;
+  color: gray;
+
+}
+/* profile end from here */
+
+
+/* about me Starts here */
+.about-image{
+  margin-top: 120px;
+}
+.about-image img{
+  width: 300px;
+  height: 280px;
+}
+.about-me-desc p{
+  text-align: left;
+}
+/* about me ends here */
+
+
+/* professional experience Starts here */
+.professional-experience{
+  padding: 1% 7%;
+  background-color: black;
+  height: 700px;
+}
+
+/* professional experience ends here */
+
+/* achievment-contact starts here */
+.achievment{
+  text-align: left;
+}
+.achievment p{
+  text-align: left;
+}
+.contact input, textarea{
+  width: 100%;
+  text-align: left;
+  padding: 10px 0px;
+  margin: 5px 0px;
+  font-size: 20px;
+  resize: none;
+  border: none;
+  border-radius: 5px;
+}
+.contact button{
+  padding: 10px 60px;
+  margin: 10px;
+font-size: 16px;
+background-color: #252525;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.contact-lists{
+  position: relative;
+}
+.media-button{
+  position: absolute;
+  margin-top: 200px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+
+}
+/* achievment-contact ends here */
+
+/* footer starts here */
+.footer-menu{
+  text-align: left;
+
+}
+.footer-menu a{
+  display: inline-block;
+  text-decoration: none;
+  color: gray;
+  margin: 8px 5px;
+  text-transform:uppercase;
+  transition: .3s;
+}
+.footer-desc{
+  margin-top: 8px;
+  text-align: right;
+}
+/* footer ends here */
